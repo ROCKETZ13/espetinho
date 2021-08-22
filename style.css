@@ -1,0 +1,308 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+    margin: 0%;
+    padding: 0%;
+    background-color: #e3e3eb;
+}
+
+::-webkit-scrollbar
+{
+	background: 5px #A90023;
+	width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb 
+{
+	background: #30030c;
+	border-radius: 10px;
+}
+  
+a
+{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+  
+a:hover 
+{
+    opacity: 0.7;
+}
+  
+.logo 
+{
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+  
+  
+nav 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #F0141E;
+    height: 10vh;
+	border-bottom: 5px solid #640028;
+	
+} 
+  
+.nav-list 
+{
+    list-style: none;
+    display: flex;
+}
+  
+.nav-list li 
+{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+img
+{
+    height: 100px;
+}
+
+.container
+{
+	padding-top: 130px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+	align-items: center;
+}
+
+.intro
+{
+	margin-bottom: 50px;
+}
+
+h1
+{
+	font-size: 48px;
+	color: #640028;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+	line-height: 32px;
+    font-size: 24px;
+    color: #494949;
+	max-width: 500px;
+}
+
+
+form
+{
+	padding: 16px 16px 24px 16px;
+	border-radius: 8px;
+	background: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgb (0, 0, 0, .1);
+
+}
+
+form a, input, button
+{
+	display: block;
+}
+
+input
+{
+	width: 100%;
+	padding: 16px;
+	margin-bottom: 12px;
+	border-radius: 6px;
+	border: 1px solid #666;
+	outline: none;
+}
+
+input:focus
+{
+	border-color: #1877f2;
+	box-shadow: 0 0 0 2px #e7f3ff;
+	caret-color: #1877f2;
+}
+
+input[placeholder]
+{
+	font-size: 18px;font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
+
+input::placeholder
+{
+	font-size: 18px;
+	color: #1d2129;
+	opacity: 0.6;
+}
+
+form a 
+{
+	font-size: 14px;
+	color: darkcyan;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin-top: 16px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #dadde1;
+}
+
+form a:hover
+{
+	text-decoration: underline;
+} 
+
+.entrar, .criar-conta
+{
+	font-weight: bold;
+	color: white;
+	border-radius: 6px;
+	border: none;
+	padding: 16px;
+	cursor: pointer;
+	text-align: center;
+	transition: 200ms cubic-bezier(.08, .52, .52,1);
+}
+
+.entrar
+{
+	background: #A90023;
+	width: 100%;
+	font-size: 20px;
+}
+
+.criar-conta
+{
+	font-size: 15px;
+	background: #FF5A1E;
+	margin: 0 auto;
+	margin-top: 24px;
+}
+
+.criar-conta:hover
+{
+	background: #FFDC32;
+}
+
+.entrar:hover
+{
+	background: #640028;
+}
+
+footer {
+	background-color: #F0141E;
+	padding: 5em 0;
+	padding-bottom: 40px;
+	border-top: 5px solid #640028;
+}
+
+footer h2, footer p, footer a, footer span {
+	color: #ffffff;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer h2 {
+	font-weight: 400;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer li {
+	list-style: none;
+}
+
+.footer-box {
+	width: 31%;
+	padding: 1%;
+	float: left;
+}
+
+footer .wrapper:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.company-footer {
+	width: 80%;
+}
+			
+
+.company-footer h2, .company-footer p {
+	margin-bottom: 20px;
+}
+
+.footer-list li {
+	margin-bottom: 15px;
+}
+
+.footer-list a {
+	transition: 0.5s;
+}
+
+.footer-list a:hover {
+	color: #FFF;
+}
+
+.footer-list li:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.articles-footer {
+	width: 80%;
+}
+
+.footer-list.footer-article-list span {
+	display: block;
+	float: none;
+}
+
+.fab {
+	font-size: 30px;
+	margin-right: 10px;
+	float: left;
+}
+
+.footer-list li span {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+
+.footer-bottom {
+	border-top: 1px solid #640028;
+}
+
+.footer-bottom p {
+	font-weight: 600;
+	margin-top: 40px;
+	margin-left: 10px;
+}
